@@ -52,7 +52,7 @@ class MarkovMachine {
 		nextWord = MarkovMachine.choice(possibleNextWords);
 		output.push(nextWord);
 	}
-	return output.join(" ");
+	return output.join(" ").trim();
   }
 }
 
